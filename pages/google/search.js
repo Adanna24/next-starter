@@ -8,7 +8,7 @@ import { useRouter } from 'next/router';
 import PageNo from '../../components/PageNo';
 import Imageresult from '../../components/Imageresult';
 
-export default function search({results}) {
+export default function Search({results}) {
   const router = useRouter();
     return (
     <div>
